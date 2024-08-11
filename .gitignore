@@ -4,6 +4,7 @@
 ### C ###
 # Prerequisites
 *.d
+a.out
 
 # Object files
 *.o
@@ -75,3 +76,4 @@ dkms.conf
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/c,visualstudiocode
+build/Debug/outDebug

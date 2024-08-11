@@ -20,6 +20,25 @@ int main() {
   printf("%s\n", fakeString );
   printf("%d\n", ans);
   printf("%d\n", isBig(3, 1));
+
+  int i = 1;
+  while (i < 11) {
+    printf("%d\n", i);
+    i++;
+
+  }
+
+
+    for (int i = 0; i < 5; i++) {
+    printf("%d\n", i);
+    }
+
+    int arr[] = {25, 50, 75, 100};
+    printf("%ld\n", sizeof(arr));
+    for (int i = 0; i < (sizeof(arr)/sizeof(arr[0])); i++) {
+        printf("%d\n", arr[i]);
+    }
+  
   return 0;
 }
 
